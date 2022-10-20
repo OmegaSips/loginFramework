@@ -16,7 +16,6 @@ public class ForgotPasswordTest extends BaseTests {
         Assert.assertEquals(forgotPasswordPage.getErrorMessage(),Error);
 
     }
-
     //Works as a database per se
     @DataProvider()
     public Object[][] ForgotData(){
@@ -28,5 +27,4 @@ public class ForgotPasswordTest extends BaseTests {
 
         return data;
     }
-
 }

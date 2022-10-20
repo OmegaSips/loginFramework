@@ -12,8 +12,6 @@ import pages.SecureAreaPage;
 public class LoginTest extends BaseTests {
     private WebDriver driver;
 
-
-
     @Test(priority = 1,dataProvider = "LoginData")
     public void loginSuccessfulTest(String Username, String Password, boolean Success){
     LoginPage loginTest = homePages.clickFormAuthenticationLink("Form Authentication");

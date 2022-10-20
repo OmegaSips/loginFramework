@@ -20,7 +20,6 @@ public class BaseTests {
     protected HomePages homePages;
     String BASEURL = "https://the-internet.herokuapp.com/";
 
-
     @BeforeMethod
     public void setup() {
         ChromeOptions options = new ChromeOptions();
@@ -35,12 +34,9 @@ public class BaseTests {
         homePages = new HomePages(driver);
 
     }
-
-
     public void runAfterSetup(){
 
     }
-
     @AfterMethod
     public void captureScreenShots(ITestResult testResult) {
 
