@@ -1,3 +1,3 @@
 # loginFramework
 automation framework
-Testing Github
+Testing Git
